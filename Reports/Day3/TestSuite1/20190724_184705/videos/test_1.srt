@@ -1,0 +1,44 @@
+1
+00:00:00,244 --> 00:00:00,249
+1. openBrowser("")
+
+2
+00:00:03,849 --> 00:00:03,855
+5. navigateToUrl("https://opensource-demo.orangehrmlive.com/")
+
+3
+00:00:04,437 --> 00:00:04,439
+9. setText(findTestObject("Page_OrangeHRM/input_LOGIN Panel_txtUsername"), username)
+
+4
+00:00:04,785 --> 00:00:04,786
+13. setEncryptedText(findTestObject("Page_OrangeHRM/input_Username_txtPassword"), password)
+
+5
+00:00:05,150 --> 00:00:05,151
+17. click(findTestObject("Page_OrangeHRM/input_Password_Submit"))
+
+6
+00:00:05,991 --> 00:00:05,994
+21. click(findTestObject("Page_OrangeHRM/b_Performance"))
+
+7
+00:00:06,378 --> 00:00:06,379
+25. click(findTestObject("Page_OrangeHRM/b_Time"))
+
+8
+00:00:06,744 --> 00:00:06,745
+29. click(findTestObject("Page_OrangeHRM/a_Welcome Admin"))
+
+9
+00:00:06,914 --> 00:00:06,916
+33. waitForElementPresent(findTestObject("Page_OrangeHRM/a_Logout"), 5)
+
+10
+00:00:06,989 --> 00:00:06,990
+37. click(findTestObject("Page_OrangeHRM/a_Logout"))
+
+11
+00:00:07,278 --> 00:00:07,279
+41. closeBrowser()
+
