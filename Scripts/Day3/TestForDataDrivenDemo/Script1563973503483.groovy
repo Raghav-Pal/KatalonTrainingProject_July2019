@@ -17,23 +17,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username)
+WebUI.setText(findTestObject('WebObjects/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), username)
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Username_txtPassword'), password, FailureHandling.STOP_ON_FAILURE)
+WebUI.setEncryptedText(findTestObject('WebObjects/Page_OrangeHRM/input_Username_txtPassword'), password, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/b_Performance'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Performance'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_OrangeHRM/b_Time'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Time'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/a_Welcome Admin'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/a_Welcome Admin'))
 
 WebUI.verifyTextPresent('abcd', false)
 
-WebUI.waitForElementPresent(findTestObject('Page_OrangeHRM/a_Logout'), 5)
+WebUI.waitForElementPresent(findTestObject('WebObjects/Page_OrangeHRM/a_Logout'), 5)
 
-WebUI.click(findTestObject('Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,64 @@
+1
+00:00:00,343 --> 00:00:00,348
+1. openBrowser("")
+
+2
+00:00:04,358 --> 00:00:04,359
+5. navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+
+3
+00:00:05,370 --> 00:00:05,372
+9. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"))
+
+4
+00:00:06,139 --> 00:00:06,140
+13. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe")
+
+5
+00:00:06,448 --> 00:00:06,451
+17. setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+
+6
+00:00:07,722 --> 00:00:07,723
+21. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login"))
+
+7
+00:00:08,121 --> 00:00:08,123
+25. selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center"), "Hongkong CURA Healthcare Center", true)
+
+8
+00:00:08,631 --> 00:00:08,632
+29. click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospital_readmission"))
+
+9
+00:00:08,837 --> 00:00:08,838
+33. click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs"))
+
+10
+00:00:09,003 --> 00:00:09,004
+37. click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphicon-calendar"))
+
+11
+00:00:09,220 --> 00:00:09,220
+41. click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_24"))
+
+12
+00:00:09,393 --> 00:00:09,394
+45. setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "sample comments")
+
+13
+00:00:09,872 --> 00:00:09,873
+49. click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment"))
+
+14
+00:00:10,146 --> 00:00:10,148
+53. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage"))
+
+15
+00:00:10,476 --> 00:00:10,477
+57. click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment_1"))
+
+16
+00:00:10,766 --> 00:00:10,769
+61. closeBrowser()
+

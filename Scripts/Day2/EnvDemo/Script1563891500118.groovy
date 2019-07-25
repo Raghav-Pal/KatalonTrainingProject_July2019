@@ -17,21 +17,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.USERNAME)
+WebUI.setText(findTestObject('WebObjects/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), GlobalVariable.USERNAME)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.PASSWORD)
+WebUI.setEncryptedText(findTestObject('WebObjects/Page_OrangeHRM/input_Username_txtPassword'), GlobalVariable.PASSWORD)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Performance'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Performance'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Time'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Time'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Admin'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/a_Welcome Admin'))
 
-WebUI.waitForElementPresent(findTestObject('Page_OrangeHRM/a_Logout'), 5)
+WebUI.waitForElementPresent(findTestObject('WebObjects/Page_OrangeHRM/a_Logout'), 5)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 

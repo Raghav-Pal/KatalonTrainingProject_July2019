@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('')
 
-WebUI.setText(findTestObject('username_textbox'), '')
+WebUI.setText(findTestObject('WebObjects/username_textbox'), '')
 
 WebUI.click(findTestObject(null))
 

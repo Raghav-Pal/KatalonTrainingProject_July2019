@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,2019-07-25 19:15:50,2019-07-25 19:15:57,7.015s,INCOMPLETE
+,,,,,,,
+Test Cases/Day4/APIChaining,,,,2019-07-25 19:15:51,2019-07-25 19:15:55,4.425s,PASSED
+"response1 = sendRequest(findTestObject(""API/REST/ListUsers""))",,,,2019-07-25 19:15:51,2019-07-25 19:15:53,1.265s,PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-07-25 19:15:53,2019-07-25 19:15:53,0.032s,PASSED
+result = slurper.parseText(response1.getResponseBodyContent()),,,,2019-07-25 19:15:53,2019-07-25 19:15:53,0.032s,PASSED
+value = first_name,,,,2019-07-25 19:15:53,2019-07-25 19:15:53,0.019s,PASSED
+"println("".. Value is : "" + value)",,,,2019-07-25 19:15:53,2019-07-25 19:15:53,0.023s,PASSED
+NAME = value,,,,2019-07-25 19:15:53,2019-07-25 19:15:53,0.211s,PASSED
+"println("".. Global Variable now is : "" + NAME)",,,,2019-07-25 19:15:53,2019-07-25 19:15:53,0.015s,PASSED
+"sendRequest(findTestObject(""API/REST/UpdateUser"", [""name"":NAME]))",,,,2019-07-25 19:15:53,2019-07-25 19:15:53,0.312s,PASSED
+,,,,,,,
+Test Cases/Day4/Test2,,,,2019-07-25 19:15:55,2019-07-25 19:15:57,2.239s,PASSED
+"println("".. Global Var is : "" + NAME)",,,,2019-07-25 19:15:55,2019-07-25 19:15:55,0.005s,PASSED

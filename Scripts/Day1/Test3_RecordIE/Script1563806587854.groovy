@@ -15,17 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Username'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/span_Username'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_txtUsername'), 'Admin')
+WebUI.setText(findTestObject('WebObjects/Page_OrangeHRM/input_txtUsername'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('WebObjects/Page_OrangeHRM/input_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Submit'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/input_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Performance'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Performance'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Directory'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Directory'))
 
 WebUI.closeBrowser()
 

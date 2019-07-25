@@ -17,27 +17,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/span_Username'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/span_Username'))
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.setText(findTestObject('WebObjects/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('WebObjects/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Dashboard'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Performance'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Performance'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Recruitment'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Recruitment'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Maintenance'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/b_Maintenance'))
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Welcome Admin'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/a_Welcome Admin'))
 
-WebUI.waitForElementPresent(findTestObject('Page_OrangeHRM/a_Logout'), 5)
+WebUI.waitForElementPresent(findTestObject('WebObjects/Page_OrangeHRM/a_Logout'), 5)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('WebObjects/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 

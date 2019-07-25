@@ -114,9 +114,9 @@
 	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/plugins/com.google.http-client.google-http-client_1.22.0.jar"/>
 	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/plugins/ca.juliusdavies.not-yet-commons-ssl_0.3.11.jar"/>
 	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/plugins/com.kms.katalon.preferences_1.0.0.201907170724.jar"/>
-	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/configuration/plugin/install/2850/1.0.1/katalon-dbms-keywords.jar"/>
 	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/configuration/plugin/install/11764/1.0.3/calendar-plugin.jar"/>
 	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/configuration/plugin/install/7640/1.0.5/katalon-studio-report-plugin.jar"/>
+	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/configuration/plugin/install/2850/1.0.2/katalon-dbms-keywords.jar"/>
 	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/configuration/plugin/install/3249/1.0.1/katalon-studio-applitools-plugin-all.jar"/>
 	<classpathentry kind="lib" path="E:/Desktop/Tools/KatalonStudio/Katalon_Studio_Windows_64-6.2.2/Katalon_Studio_Windows_64-6.2.2/configuration/plugin/install/9674/1.0.0/katalon-studio-pdf-keywords.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites name="TestSuite1" time="7" tests="2" failures="0" errors="0">
+    <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="7" timestamp="2019-07-25 19:15:50" hostname="Administrator - ip-172-20-128-1.ec2.internal" id="Test Suites/Day4/TestSuite1">
+        <properties>
+            <property name="deviceName" value=""/>
+            <property name="devicePlatform" value=""/>
+            <property name="logFolder" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProject_July2019\\Reports\\Day4\\TestSuite1\\20190725_191547"/>
+            <property name="logFiles" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProject_July2019\\Reports\\Day4\\TestSuite1\\20190725_191547\\execution0.log"/>
+            <property name="attachments" value=""/>
+            <property name="hostName" value="Administrator - ip-172-20-128-1.ec2.internal"/>
+            <property name="hostAddress" value="172.20.128.1"/>
+            <property name="os" value="Windows Server 2016 64bit"/>
+            <property name="katalonVersion" value="6.2.2.4"/>
+        </properties>
+        <testcase name="Test Cases/Day4/APIChaining" classname="Test Cases/Day4/APIChaining" status="PASSED">
+            <system-out>2019-07-25 19:15:51 - [TEST_CASE][PASSED] - Test Cases/Day4/APIChaining: Test Cases/Day4/APIChaining&#xD;
+&#xD;
+2019-07-25 19:15:51 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("API/REST/ListUsers")): Send request successfully&#xD;
+&#xD;
+2019-07-25 19:15:52 - [MESSAGE][INFO] - HAR: E:\Desktop\Projects\KatalonStudio\2019\TrainingProject_July2019\Reports\Day4\TestSuite1\20190725_191547\requests\main\0.har&#xD;
+&#xD;
+2019-07-25 19:15:53 - [MESSAGE][PASSED] - Send request successfully&#xD;
+&#xD;
+2019-07-25 19:15:53 - [TEST_STEP][PASSED] - slurper = new groovy.json.JsonSlurper(): null&#xD;
+&#xD;
+2019-07-25 19:15:53 - [TEST_STEP][PASSED] - result = slurper.parseText(response1.getResponseBodyContent()): null&#xD;
+&#xD;
+2019-07-25 19:15:53 - [TEST_STEP][PASSED] - value = first_name: null&#xD;
+&#xD;
+2019-07-25 19:15:53 - [TEST_STEP][PASSED] - println(".. Value is : " + value): null&#xD;
+&#xD;
+2019-07-25 19:15:53 - [TEST_STEP][PASSED] - NAME = value: null&#xD;
+&#xD;
+2019-07-25 19:15:53 - [TEST_STEP][PASSED] - println(".. Global Variable now is : " + NAME): null&#xD;
+&#xD;
+2019-07-25 19:15:53 - [TEST_STEP][PASSED] - sendRequest(findTestObject("API/REST/UpdateUser", ["name":NAME])): Send request successfully&#xD;
+&#xD;
+2019-07-25 19:15:53 - [MESSAGE][INFO] - HAR: E:\Desktop\Projects\KatalonStudio\2019\TrainingProject_July2019\Reports\Day4\TestSuite1\20190725_191547\requests\main\1.har&#xD;
+&#xD;
+2019-07-25 19:15:53 - [MESSAGE][PASSED] - Send request successfully</system-out>
+            <system-err></system-err>
+        </testcase>
+        <testcase name="Test Cases/Day4/Test2" classname="Test Cases/Day4/Test2" status="PASSED">
+            <system-out>2019-07-25 19:15:55 - [TEST_CASE][PASSED] - Test Cases/Day4/Test2: Test Cases/Day4/Test2&#xD;
+&#xD;
+2019-07-25 19:15:55 - [TEST_STEP][PASSED] - println(".. Global Var is : " + NAME): null</system-out>
+            <system-err></system-err>
+        </testcase>
+        <system-out>2019-07-25 19:15:50 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-out>
+        <system-err>2019-07-25 19:15:50 - [TEST_SUITE][INCOMPLETE] - TestSuite1: null</system-err>
+    </testsuite>
+</testsuites>

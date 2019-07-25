@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description/>
+   <description></description>
    <name>input_Email_email</name>
-   <tag/>
+   <tag></tag>
    <elementGuidId>a3cc376a-55b8-4d67-a8e5-38a852b5c8b7</elementGuidId>
    <selectorCollection>
       <entry>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id("HTML1")/div[@class="widget-content"]/form[1]/div[@class="container"]/input[1]</value>
+      <value>id(&quot;HTML1&quot;)/div[@class=&quot;widget-content&quot;]/form[1]/div[@class=&quot;container&quot;]/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

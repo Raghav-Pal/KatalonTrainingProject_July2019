@@ -1,0 +1,32 @@
+1
+00:00:00,236 --> 00:00:00,245
+1. response1 = sendRequest(findTestObject("API/REST/ListUsers"))
+
+2
+00:00:01,504 --> 00:00:01,506
+5. slurper = new groovy.json.JsonSlurper()
+
+3
+00:00:01,536 --> 00:00:01,537
+9. result = slurper.parseText(response1.getResponseBodyContent())
+
+4
+00:00:01,569 --> 00:00:01,570
+13. value = first_name
+
+5
+00:00:01,588 --> 00:00:01,591
+17. println(".. Value is : " + value)
+
+6
+00:00:01,614 --> 00:00:01,615
+21. NAME = value
+
+7
+00:00:01,825 --> 00:00:01,826
+25. println(".. Global Variable now is : " + NAME)
+
+8
+00:00:01,839 --> 00:00:01,840
+29. sendRequest(findTestObject("API/REST/UpdateUser", ["name":NAME]))
+

@@ -17,17 +17,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('ObjectsForManualMode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+WebUI.setText(findTestObject('WebObjects/ObjectsForManualMode/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
 
-WebUI.setEncryptedText(findTestObject('ObjectsForManualMode/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setEncryptedText(findTestObject('WebObjects/ObjectsForManualMode/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-WebUI.click(findTestObject('ObjectsForManualMode/Page_OrangeHRM/input_Password_Submit'))
+WebUI.click(findTestObject('WebObjects/ObjectsForManualMode/Page_OrangeHRM/input_Password_Submit'))
 
-WebUI.click(findTestObject('ObjectsForManualMode/Page_OrangeHRM/a_Welcome Admin'))
+WebUI.click(findTestObject('WebObjects/ObjectsForManualMode/Page_OrangeHRM/a_Welcome Admin'))
 
-WebUI.verifyElementPresent(findTestObject('ObjectsForManualMode/Page_OrangeHRM/a_Logout'), 5)
+WebUI.verifyElementPresent(findTestObject('WebObjects/ObjectsForManualMode/Page_OrangeHRM/a_Logout'), 5)
 
-WebUI.click(findTestObject('ObjectsForManualMode/Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('WebObjects/ObjectsForManualMode/Page_OrangeHRM/a_Logout'))
 
 WebUI.closeBrowser()
 
